@@ -1,0 +1,11 @@
+&o0
+BackgroundImage: !FirstDungeonBackgroundTile
+  PosX: 0
+  PosY: 0
+AreaIndex: 0
+Areas:
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  Doors: []

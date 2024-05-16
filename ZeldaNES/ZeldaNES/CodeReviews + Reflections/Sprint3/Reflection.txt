@@ -1,0 +1,16 @@
+"Near the end of the sprint, write up a brief report on how your team performed this sprint, using the burndown chart from the board as the basis for discussion.
+Feel free to also discuss your processes as a whole. Were any changes your made this sprint constructive or detrimental? Do you have any plans for doing things differently next sprint?"
+
+Sprint 3 Reflection:
+Thomas Flanagan: I think in comparison to Sprint 2, our team worked much more cohesively during Sprint 3. While we both over and underestimated the amount of
+work remaining at various points throughout the sprint, we consistently marched towards completion without instances of rushing for last minute implementation.
+We might benefit from more consistent meetings, as I found hearing the other groupmembers explaining their pieces of code made it much easier to create and modify
+other files that reference or are referenced by them.
+
+Preston Hines
+I think overall the sprint was successful. We are getting down to the wire on some of the collision stuff and there are some.. quirks, but I think it is okay since next sprint
+we will be able to make the full dungeon using the level editor that was built. This will greatly cut down on the time we have to spend. It will could likely be done by one person in 
+an afternoon, assuming no game breaking bugs arise. 
+
+Angstrom Sarkar:
+a lot of progress seems to be made. unfortunately i was busy doing stuff for other classes and fell very far behind everyone else... next sprint i will try to avoid this.

@@ -1,0 +1,58 @@
+BackgroundImage: !FirstDungeonBackgroundTile
+  PosX: 0
+  PosY: 0
+AreaIndex: 0
+Areas:
+- Region: 
+  Items: []
+  Enemies: []
+  Tiles: []
+  Doors:
+  - !NorthOpenDoor
+    Index: 0
+  - !SouthOpenDoor
+    Index: 0
+  - !EastOpenDoor
+    Index: 0
+  - !WestOpenDoor
+    Index: 0
+- Region: 
+  Items: []
+  Enemies: []
+  Tiles: []
+  Doors:
+  - !NorthLockedDoor
+    Index: 0
+  - !SouthLockedDoor
+    Index: 0
+  - !EastLockedDoor
+    Index: 0
+  - !WestLockedDoor
+    Index: 0
+- Region: 
+  Items: []
+  Enemies: []
+  Tiles: []
+  Doors:
+  - !NorthShutDoor
+    Index: 0
+  - !SouthShutDoor
+    Index: 0
+  - !EastShutDoor
+    Index: 0
+  - !WestShutDoor
+    Index: 0
+- Region: 
+  Items: []
+  Enemies: []
+  Tiles: []
+  Doors:
+  - !NorthHiddenDoor
+    Index: 0
+  - !SouthHiddenDoor
+    Index: 0
+  - !EastHiddenDoor
+    Index: 0
+  - !WestHiddenDoor
+    Index: 0
+

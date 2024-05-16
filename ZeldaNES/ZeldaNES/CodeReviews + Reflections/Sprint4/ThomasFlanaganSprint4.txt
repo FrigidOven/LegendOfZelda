@@ -1,0 +1,24 @@
+Date: April 8, 2024
+Author: Thomas Flanagan
+Code Reviewed: PlayerDoorPhysicsHandler.cs
+Author of Code: Jamal Hussein
+Time: 14 min
+
+READABILITY
+-Variable names are simple and descriptive, but some like teleportedDirection could be clearer
+-The structure of the code generally follows the format of other physics subhandlers
+-Debug lines leftover from testing need to be removed.
+
+CODE QUALITY
+-Single purpose methods that do exactly and only exactly as they should
+-Magic numbers currently being used, but mentioned as a point to correct soon
+-Current bug where there's still a few teleportations each time when entering a North Door
+-Aside from changing from magic numbers to constants, the coordinate change for link when entering North doors also needs to be asjusted to prevent the aforementioned glitch
+-Great base on which to build the rest of the screen transitions and other Door related Physics.
+
+
+Reflection:
+I think because of conflicting schedules and busy classes, we weren't able to make as much time as last sprint to meet as an entire group and discuss ideas.
+This led to most of our group discussions being done in the classroom, with most of the coding being done on our own. I think this slowed down certain parts
+of our build. However, we did a much better job this sprint assigning specific roles to each member of the team, which I believed reduced the amount of work
+certain members were expected to complete while giving others a chance to implement their own ideas. 

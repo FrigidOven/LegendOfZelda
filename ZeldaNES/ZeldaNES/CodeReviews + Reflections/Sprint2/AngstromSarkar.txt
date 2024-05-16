@@ -1,0 +1,9 @@
+Written by Angstrom C. Sarkar
+Code reviewed: StalfoSprite.cs
+
+NOTES: When I made the floor tile spriteclass, this was one of the files that I found helpful. It gave me a general idea as to how
+creating sprites for things worked.
+READABILITY: Overall the code is somewhat easy to understand, so long as you know what all the functions it calls do.
+MAINTAINABILITY: Because a lot of the things in the code are built on other functions and objects, changing the class would be, theoretically,
+very easy. For example, if someone changed any of the things used (such as the enemy sprite constants), they would most likely have to change
+very little, as that is defined as a variable within its own file, and then imported into the class.

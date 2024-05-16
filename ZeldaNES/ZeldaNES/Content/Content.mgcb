@@ -1,0 +1,328 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin GameFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:GameFont.spritefont
+
+#begin Sound/Songs/06 - Triforce.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Songs/06 - Triforce.mp3
+
+#begin Sound/Songs/10 - Ending.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Songs/10 - Ending.mp3
+
+#begin Sound/Songs/68 Gerudo Valley-[AudioTrimmer.com].mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Songs/68 Gerudo Valley-[AudioTrimmer.com].mp3
+
+#begin Sound/Songs/UnderworldTheme.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Songs/UnderworldTheme.mp3
+
+#begin Sound/Sound Effects/LOZ_Arrow_Boomerang.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Arrow_Boomerang.wav
+
+#begin Sound/Sound Effects/LOZ_Bomb_Blow.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Bomb_Blow.wav
+
+#begin Sound/Sound Effects/LOZ_Bomb_Drop.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Bomb_Drop.wav
+
+#begin Sound/Sound Effects/LOZ_Boss_Hit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Boss_Hit.wav
+
+#begin Sound/Sound Effects/LOZ_Boss_Scream1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Boss_Scream1.wav
+
+#begin Sound/Sound Effects/LOZ_Boss_Scream2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Boss_Scream2.wav
+
+#begin Sound/Sound Effects/LOZ_Boss_Scream3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Boss_Scream3.wav
+
+#begin Sound/Sound Effects/LOZ_Candle.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Candle.wav
+
+#begin Sound/Sound Effects/LOZ_Door_Unlock.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Door_Unlock.wav
+
+#begin Sound/Sound Effects/LOZ_Enemy_Die.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Enemy_Die.wav
+
+#begin Sound/Sound Effects/LOZ_Enemy_Hit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Enemy_Hit.wav
+
+#begin Sound/Sound Effects/LOZ_Fanfare.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Fanfare.wav
+
+#begin Sound/Sound Effects/LOZ_Get_Heart.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Get_Heart.wav
+
+#begin Sound/Sound Effects/LOZ_Get_Item.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Get_Item.wav
+
+#begin Sound/Sound Effects/LOZ_Get_Rupee.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Get_Rupee.wav
+
+#begin Sound/Sound Effects/LOZ_Key_Appear.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Key_Appear.wav
+
+#begin Sound/Sound Effects/LOZ_Link_Die.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Link_Die.wav
+
+#begin Sound/Sound Effects/LOZ_Link_Hurt.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Link_Hurt.wav
+
+#begin Sound/Sound Effects/LOZ_LowHealth.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_LowHealth.wav
+
+#begin Sound/Sound Effects/LOZ_MagicalRod.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_MagicalRod.wav
+
+#begin Sound/Sound Effects/LOZ_Recorder.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Recorder.wav
+
+#begin Sound/Sound Effects/LOZ_Refill_Loop.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Refill_Loop.wav
+
+#begin Sound/Sound Effects/LOZ_Secret.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Secret.wav
+
+#begin Sound/Sound Effects/LOZ_Shield.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Shield.wav
+
+#begin Sound/Sound Effects/LOZ_Shore.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Shore.wav
+
+#begin Sound/Sound Effects/LOZ_Stairs.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Stairs.wav
+
+#begin Sound/Sound Effects/LOZ_Sword_Combined.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Sword_Combined.wav
+
+#begin Sound/Sound Effects/LOZ_Sword_Shoot.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Sword_Shoot.wav
+
+#begin Sound/Sound Effects/LOZ_Sword_Slash.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Sword_Slash.wav
+
+#begin Sound/Sound Effects/LOZ_Text_Slow.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Text_Slow.wav
+
+#begin Sound/Sound Effects/LOZ_Text.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Sound Effects/LOZ_Text.wav
+
+#begin Sprite Sheets/Enemies/Boss.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Sheets/Enemies/Boss.png
+
+#begin Sprite Sheets/Enemies/DungeonEnemies.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Sheets/Enemies/DungeonEnemies.png
+
+#begin Sprite Sheets/Items/Items.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Sheets/Items/Items.png
+
+#begin Sprite Sheets/Players/Link.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Sheets/Players/Link.png
+
+#begin Sprite Sheets/Tiles/DungeonTiles.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Sheets/Tiles/DungeonTiles.png
+
+#begin Sprite Sheets/UI/PauseScreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Sheets/UI/PauseScreen.png
+
+#begin Sprite Sheets/UI/StartScreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Sheets/UI/StartScreen.png
+
+#begin Sprite Sheets/Weapons/Weapons.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Sheets/Weapons/Weapons.png
+

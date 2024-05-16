@@ -1,0 +1,12 @@
+Written April 8, by Angstrom Sarkar
+Code reviewed: UICamera.cs
+Code author: Jamal Hussein
+Time: 13 minutes
+
+READABILITY:
+	- A bit hard to follow if you are not familliar with vectors and matrixes, but otherwise pretty easily understandable.
+
+QUALITY:
+	- Use of constants means the code would be easily modifiable if said values were to be changed.
+	- Many methods contain few lines and complete a simple purpose, allowing them to be reused easily.
+	- Overall a good program.

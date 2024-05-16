@@ -1,0 +1,15 @@
+Author: Thomas Flanagan
+4/22/24
+Sprint 5
+Code Reviewed: Wallmaster.cs/PlayerEnemyPhysicsHandler.cs
+Author of Code: Joey Zhou
+minute taken to review: 15 minutes
+
+READABILITY
+The wallmaster npc class itself operates similarly to other npc's so it maintains the same expected level of readability.
+The additional method included in the physics handler to move link is also clearly structured and uses variable names well.
+There is a little bit of magic numbering in the wallmaster file, with the enemy health value just set to 3 over referencing a separate file.
+CODE QUALITY
+The code itself works well for what it is meant to do. All of the Wallmaster code is functional and follows the structure of the other
+enemies, letting it be easily understood and maintained. The physics end of the code is alsoo quite good. It doesn't leave any issues related
+to coordinate swaps.

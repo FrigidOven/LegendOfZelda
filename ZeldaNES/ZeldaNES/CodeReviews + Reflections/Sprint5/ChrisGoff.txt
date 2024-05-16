@@ -1,0 +1,18 @@
+Date: April 22, 2024
+Author: Chris Goff
+Code Reviewed: Quadtree.cs
+Author of Code: Jamal Hussein
+Time: 20 min
+
+READABILITY
+-Great descriptive comments before large blocks of code
+-Proper variable names given the usage of Tree
+-Comments before method definitions could be helpful
+-Overall surprisingly readable given complexity of code
+
+CODE QUALITY
+-Good use of constants instead of magic numbers
+-Could be hard to go in an find exact points of failure
+if this code were to fail, however that is to be expected 
+for code this complex
+-Overall, this class was made with care to be maintanable and adaptable

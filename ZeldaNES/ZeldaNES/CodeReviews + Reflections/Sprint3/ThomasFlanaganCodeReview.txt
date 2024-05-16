@@ -1,0 +1,16 @@
+Date: March 8, 2024
+Author: Thomas Flanagan
+Code Reviewed: PlayerEnemyPhysicsHandler.cs
+Author of Code: Jamal Hussein
+Time: 15 min
+
+READABILITY
+-The order of methods in the file follows a logical way of working through handling physics
+-The difference between the two "AdjustPosition" methods is not immediately obvious upon looking
+-Adding comments to describe what each method does could improve readability
+
+CODE QUALITY
+-Good use of constant values for maintainability
+-I know we discussed splitting the PlayerEnemy handler into two handlers to deal with each direction of the knockback, but
+- the current usage of two methods works out well
+-Great job overall, the consistency between each handler and their pairing with pre-existing code is super useful

@@ -1,0 +1,67 @@
+﻿using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ZeldaNES.Game_Constants;
+using ZeldaNES.Items;
+using ZeldaNES.NPCs;
+using ZeldaNES.Sprites.Classes.EnemySprites.DungeonEnemySprites;
+
+namespace ZeldaNES.Sprites.Classes.EnemySprites
+{
+    public class GoriyaWalkingLeftSprite : ISprite
+    {
+        static int SpriteIndex = DungeonEnemySpriteConstants.GoriyaSpritesIndex;
+        static int SpriteFrameCount = DungeonEnemySpriteConstants.GoriyaSpritesFrameCount;
+        static int SpriteStallFrameCount = DungeonEnemySpriteConstants.GoriyaSpritesStallFrameCount;
+        static int SpriteDirectionFacing = DungeonEnemySpriteConstants.LeftFacingSpritesIndex;
+
+        Rectangle[] Frames = new Rectangle[SpriteFrameCount];
+        Rectangle destination;
+        int stallframesCounter;
+        int frameIndex;
+        INPC owner;
+        public GoriyaWalkingLeftSprite(INPC owner) {
+            
+            for (int i = 0; i < SpriteFrameCount; i++)
+            {
+                Frames[i] = new Rectangle(  
+                                            SpriteDirectionFacing, 
+                                            SpriteIndex + i * DungeonEnemySpriteConstants.SpriteSize, 
+                                            DungeonEnemySpriteConstants.SpriteSize, 
+                                            DungeonEnemySpriteConstants.SpriteSize);
+            }
+                destination = new Rectangle(    
+                                            owner.PosX - GeneralConstants.ImageScale * (DungeonEnemySpriteConstants.SpriteSize / 2),
+                                            owner.PosY - GeneralConstants.ImageScale * (DungeonEnemySpriteConstants.SpriteSize / 2),
+                                            GeneralConstants.ImageScale * DungeonEnemySpriteConstants.SpriteSize,
+                                            GeneralConstants.ImageScale * DungeonEnemySpriteConstants.SpriteSize);
+            stallframesCounter = 0;
+            frameIndex = 0;
+            stallframesCounter = SpriteStallFrameCount;
+            this.owner = owner;
+        }
+        public void Update() { 
+            if(stallframesCounter == SpriteStallFrameCount)
+            {
+                stallframesCounter = 0;
+                frameIndex = (frameIndex + 1) % Frames.Length;
+            }
+            stallframesCounter++;
+
+        }
+        public void Draw() {
+            destination = new Rectangle(    
+                                            owner.PosX - GeneralConstants.ImageScale * (DungeonEnemySpriteConstants.SpriteSize / 2),
+                                            owner.PosY - GeneralConstants.ImageScale * (DungeonEnemySpriteConstants.SpriteSize / 2),
+                                            GeneralConstants.ImageScale * DungeonEnemySpriteConstants.SpriteSize,
+                                            GeneralConstants.ImageScale * DungeonEnemySpriteConstants.SpriteSize);
+            Color color = owner.Body().IsTakingDamage ? Color.HotPink : Color.White;
+            TextureManager.TextureManager.Instance.SpriteBatch.Draw(TextureManager.TextureManager.Instance.npcTexture, destination, Frames[frameIndex], color);
+        }
+
+    }
+}

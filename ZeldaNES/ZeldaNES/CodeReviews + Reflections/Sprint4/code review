@@ -1,0 +1,14 @@
+author: yuyang zhou
+2024/4/9
+sprint4
+Code Reviewed: PlayerEnemyPhysicsHandler.cs
+Author of Code: PrestonHines
+minute taken to review: 15 minutes
+
+READABILITY
+variable names are clear and easy such as a method HandlePhysics that summarize all the situation and the detailed handle like IsSwordTouching IsBodyTouching
+function names easy to understand. All names are clear with appropriate upper and lower case. It is also easy for me to add new function to the class
+CODE QUALITY
+this class is the physics handler for the player and enemy. It is well organized and easy to understand. It achieve its goal and handle physical between enemy and player correctly.
+
+*/

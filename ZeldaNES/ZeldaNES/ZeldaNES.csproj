@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Physics\IItemPhysicsObject\**" />
+    <Compile Remove="Physics\PhysicsHandlers\SubHandlers\PlayerItemPhysicsHandler\**" />
+    <Compile Remove="Physics\PhysicsObjects\ItemPhysicsObject\**" />
+    <EmbeddedResource Remove="Physics\IItemPhysicsObject\**" />
+    <EmbeddedResource Remove="Physics\PhysicsHandlers\SubHandlers\PlayerItemPhysicsHandler\**" />
+    <EmbeddedResource Remove="Physics\PhysicsObjects\ItemPhysicsObject\**" />
+    <None Remove="Physics\IItemPhysicsObject\**" />
+    <None Remove="Physics\PhysicsHandlers\SubHandlers\PlayerItemPhysicsHandler\**" />
+    <None Remove="Physics\PhysicsObjects\ItemPhysicsObject\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="RegionFiles\DoorDemo.yaml" />
+    <None Remove="RegionFiles\DungeonDebug.yaml" />
+    <None Remove="RegionFiles\save2.yaml" />
+    <None Remove="RegionFiles\Sprint3Dungeon.yaml" />
+    <None Remove="RegionFiles\Sprint4Dungeon.yaml" />
+    <None Remove="RegionFiles\Sprint5Dungeon.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
+    <PackageReference Include="YamlDotNet" Version="15.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\InventoryPosition\" />
+    <Folder Include="Objects\States\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RegionFiles\DoorDemo.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RegionFiles\save2.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RegionFiles\Sprint5Dungeon.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RegionFiles\Sprint4Dungeon.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RegionFiles\Sprint3Dungeon.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RegionFiles\DungeonDebug.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RegionGenerator\RegionGenerator.cs" />
+  </ItemGroup>
+  <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
+    <Message Text="Restoring dotnet tools" Importance="High" />
+    <Exec Command="dotnet tool restore" />
+  </Target>
+</Project>

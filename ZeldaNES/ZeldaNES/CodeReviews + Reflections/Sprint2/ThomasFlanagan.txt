@@ -1,0 +1,29 @@
+MAINTAINABLILITY
+AUTHOR: Thomas Flanagan
+DATE: 2/19/2024
+SPRINT: 2
+TARGET: Players/Link.cs
+TARGET_AUTHOR: Jamal Hussein
+TIME: 15 min:
+COMMENTS:
+I think this is written in a way that is extremely recyclable and malleable. Certain aspects of link's behavior that can be changed like the weapon offset,
+are defined in another file, then referenced within Link.cs to increase modularity. The use of a weapon's factory for the creation of arrows, bombs, fire, and more
+greatly reduces the strain placed on the class itself when it comes to functionality. The usage of private variables is in line with coding practices and each method 
+is properly designed to do its one task without any unneccessary additions.
+Changes: 
+One possible change, though it may negatively impact readability, would be adjusting the UseWeapon-type methods to no longer create xOffset/yOffset variables that
+are each only used once. The current implementation could certainly handle it, but I can also see why having those variables created makes the method call to
+the weapons factory much cleaner.
+
+READABILITY
+AUTHOR: Thomas Flanagan
+DATE: 2/19/2024
+SPRINT: 2
+TARGET: Sprites/DungeonEnemySpriteConstants.cs
+TARGET_AUTHOR: Jamal Hussein
+TIME: 10min
+COMMENTS:
+A short, standard file that exists to make the creation of all the enemies in the dungeon easier. It does this fantasitically and made creating things
+like the Stalfos much easier. Each enemy's constants are separated and the order of the enemies in the file matches their order on the spritesheet. The only two
+parts that feel like they can be improved would be removing the spacing between the goriya and goriyaAttacking constants or attaching the default Up/Down/Right/Left
+facing sprites to the other universal constants in the file, sprite size and sprite scale.

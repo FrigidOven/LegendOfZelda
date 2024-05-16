@@ -1,0 +1,24 @@
+February 19, 2024
+Code Review Conducted By: Jamal Hussein
+Code Reviewed BlueCandleSprite.cs
+Author of Code: Preston Hines
+
+Readability:
+
+This code contains a rewrite of the generic sprite code and will be the new standard moving forwards.
+As it stands, the code is consice, with very little unecessary complexity. As a result the code reads
+almost like english. The only qualms I have are the choice of variable names. They should be consistent
+across the entirety of the program yet spritebatch is named sb here where it is otherwise just spritebatch,
+likewise with texture which is now tex, and the generic "owner" title works well for weapons as weapons are
+logically owned by something or someone but items sprites arent really owned by anything. I think the name
+item would fit better here instead. As well, the sprite locations are stored in static integers which is an odd
+choice, they now belong to the sprite class itself when they already belonged to sprite constants file. I would
+forego this route as it adds unecessary rigidity to the class, calling the constants file may be more characters
+but in so doing the code is more understandble as the variables are more descriptive.
+
+Code quality:
+
+-Incredibly reusable, works with animated and non-animated sprites.
+-Much less complexity than the existing sprite code, cuts down on conditional logic and ternary assignments.
+-Some unecessary redeclarations (why is there a new rectangle being created every single time it is drawn?).
+-Very loose coupling, only refrences an objects position inside of it and is only tasked with drawing it at that position.

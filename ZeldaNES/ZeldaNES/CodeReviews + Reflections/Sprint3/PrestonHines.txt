@@ -1,0 +1,15 @@
+Date: March 8, 2024
+Author: Preston Hines
+Code Reviewed: PhysicsSubHandlers
+Author of Code: Jamal Hussein
+Time: 15 min
+
+READABILITY
+- The code is super clean.
+- easy to follow
+- I also like that we have each type of interaction done seperately 
+
+MAINTAINABILITY
+- I think it should be a static class that gets called from the main physics handler, which would also be a static class
+  The reasoning being that I am assuming we wont want multiple instances of physics in the game.
+- great job!

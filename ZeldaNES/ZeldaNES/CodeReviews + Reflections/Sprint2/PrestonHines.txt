@@ -1,0 +1,27 @@
+MAINTAINABLILITY
+AUTHOR: Preston Hines
+DATE: 2/19/2024
+SPRINT: 2
+TARGET: NPC/goriya.cs
+TARGET_AUTHOR: Chriss Goff
+TIME: 10:
+COMMENTS:
+I think the switch case is really nice and the overall flow of the class is really concise. The different states help the readability. Something maybe I'd like to see
+is a comment in the header specifying how the different ints map to the different Goriya states. The last think is the movement speed is a little magic numbery. 
+I think we should make an NPCEnemyConstants file to store this data all in one place
+READABILITY
+AUTHOR: Preston Hines
+DATE: 2/19/2024
+SPRINT: 2
+TARGET: ITile.cs
+TARGET_AUTHOR: Angstrom Sarkar
+TIME: 10min
+COMMENTS:
+Overall good readabilty, which makes sense since it is an interface. Some things I would do is refrain from using
+"Why" instead of "Y", and perhaps a reduction in comments, but overall good method choice in my opinion. I like the
+regularity the interface brings in the overall structure of our solution. 
+CHANGES:
+I think I would uncomment out the setters in the interface. I think having the same interface for movable and imovable
+objects is nice. Something also we might consider is having some way to query the interface as to the static/dynamic
+of the tile in question. 
+

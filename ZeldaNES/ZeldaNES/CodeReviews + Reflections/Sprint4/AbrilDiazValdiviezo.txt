@@ -1,0 +1,15 @@
+Date: April 9, 2024
+Author: Abril Diaz Valdiviezo
+Code Reviewed: SoundManager.cs
+Author of Code: Chris Goff
+Time: 15 min
+
+READABILITY
+-Good variable names that make sense
+-Code is simple and easy to understand
+-Overall organization makes sense
+
+CODE QUALITY
+-Nice short methods that have one sole purpose and could be reused
+-No unnecessary complexity
+-Good job overall

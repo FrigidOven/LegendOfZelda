@@ -1,0 +1,16 @@
+author: yuyang zhou
+2024/2/19
+sprint2
+Code Reviewed: Sprint2NPC.cs
+Author of Code: Chris Goff
+minute taken to review: 15 minutes
+
+READABILITY
+variable names are clear and easy to understand such as posx and currentNpcIndex
+function names easy to understand and the public Sprint2NPC(int posX, int posY) gather all the sprite that need to switch inside it
+and can aslo track the position of the npc
+
+CODE QUALITY
+Since this class is only for sprint 2, probably in sprint 3, we will have to add more features to this class but is funish the job for sprint 2 and the code is clean and easy to understand
+
+*/

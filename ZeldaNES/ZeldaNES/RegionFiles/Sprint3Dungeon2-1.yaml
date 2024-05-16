@@ -1,0 +1,337 @@
+&o0
+BackgroundImage: !FirstDungeonBackgroundTile
+  PosX: 0
+  PosY: 0
+AreaIndex: 1
+Areas:
+- Region: *o0
+  Items:
+  - !PowerBraceletItem
+    PosX: 3
+    PosY: 0
+  - !PowerBraceletItem
+    PosX: 3
+    PosY: 1
+  - !PowerBraceletItem
+    PosX: 4
+    PosY: 1
+  - !PowerBraceletItem
+    PosX: 4
+    PosY: 0
+  Enemies:
+  - !GoriyaEnemy
+    PosX: 9
+    PosY: 0
+    IsFriendly: false
+  - !GoriyaEnemy
+    PosX: 9
+    PosY: 1
+    IsFriendly: false
+  - !GoriyaEnemy
+    PosX: 10
+    PosY: 1
+    IsFriendly: false
+  Tiles:
+  - !BlockTile
+    PosX: 9
+    PosY: -7
+  - !BlockTile
+    PosX: 10
+    PosY: -4
+  - !BlockTile
+    PosX: 7
+    PosY: -2
+  - !BlackTile
+    PosX: 7
+    PosY: 0
+  - !BlackTile
+    PosX: 6
+    PosY: 1
+  - !BlackTile
+    PosX: 7
+    PosY: 1
+  BoundryTiles: []
+  Doors:
+  - !WestOpenDoor
+    PosX: 48
+    PosY: 264
+    Index: 1
+  - !EastOpenDoor
+    Index: 2
+    PosX: 720
+    PosY: 264
+  - !NorthLockedDoor
+    PosX: 384
+    PosY: 48
+    Index: 3
+- Region: *o0
+  Items:
+  - !BlueCandleItem
+    PosX: 7
+    PosY: 4
+  - !BlueCandleItem
+    PosX: 9
+    PosY: 4
+  - !BlueCandleItem
+    PosX: 11
+    PosY: 5
+  Enemies:
+  - !GoriyaEnemy
+    PosX: 10
+    PosY: 4
+    IsFriendly: false
+  - !GoriyaEnemy
+    PosX: 13
+    PosY: 4
+    IsFriendly: false
+  Tiles:
+  - !BlackTile
+    PosX: 3
+    PosY: 4
+  - !BlackTile
+    PosX: 6
+    PosY: 4
+  BoundryTiles: []
+  Doors:
+  - !EastOpenDoor
+    Index: 0
+    PosX: 720
+    PosY: 264
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !WestOpenDoor
+    PosX: 48
+    PosY: 264
+    Index: 0
+  - !SouthLockedDoor
+    PosX: 384
+    PosY: 480
+    Index: 0
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !SouthLockedDoor
+    PosX: 384
+    PosY: 480
+    Index: 0
+  - !NorthOpenDoor
+    PosX: 384
+    PosY: 48
+    Index: 4
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !SouthOpenDoor
+    PosX: 384
+    PosY: 480
+    Index: 3
+  - !WestShutDoor
+    PosX: 48
+    PosY: 264
+    Index: 5
+  - !EastOpenDoor
+    Index: 6
+    PosX: 720
+    PosY: 264
+  - !NorthHiddenDoor
+    PosX: 384
+    PosY: 48
+    Index: 7
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !EastShutDoor
+    PosX: 720
+    PosY: 264
+    Index: 4
+  - !NorthLockedDoor
+    PosX: 384
+    PosY: 48
+    Index: 8
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !WestOpenDoor
+    PosX: 48
+    PosY: 264
+    Index: 4
+  - !NorthHiddenDoor
+    PosX: 384
+    PosY: 48
+    Index: 10
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !SouthHiddenDoor
+    PosX: 384
+    PosY: 480
+    Index: 4
+  - !WestOpenDoor
+    PosX: 48
+    PosY: 264
+    Index: 8
+  - !EastLockedDoor
+    PosX: 720
+    PosY: 264
+    Index: 10
+  - !NorthOpenDoor
+    PosX: 384
+    PosY: 48
+    Index: 14
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !SouthLockedDoor
+    PosX: 384
+    PosY: 480
+    Index: 5
+  - !EastOpenDoor
+    Index: 7
+    PosX: 720
+    PosY: 264
+  - !WestShutDoor
+    PosX: 48
+    PosY: 264
+    Index: 9
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !EastShutDoor
+    PosX: 720
+    PosY: 264
+    Index: 8
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !WestLockedDoor
+    PosX: 48
+    PosY: 264
+    Index: 7
+  - !SouthHiddenDoor
+    PosX: 384
+    PosY: 480
+    Index: 6
+  - !EastOpenDoor
+    Index: 11
+    PosX: 720
+    PosY: 264
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !WestOpenDoor
+    PosX: 48
+    PosY: 264
+    Index: 10
+  - !NorthLockedDoor
+    PosX: 384
+    PosY: 48
+    Index: 12
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !SouthLockedDoor
+    PosX: 384
+    PosY: 480
+    Index: 11
+  - !EastShutDoor
+    PosX: 720
+    PosY: 264
+    Index: 13
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !WestShutDoor
+    PosX: 48
+    PosY: 264
+    Index: 12
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !SouthOpenDoor
+    PosX: 384
+    PosY: 480
+    Index: 7
+  - !NorthLockedDoor
+    PosX: 384
+    PosY: 48
+    Index: 15
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !SouthLockedDoor
+    PosX: 384
+    PosY: 480
+    Index: 14
+  - !WestLockedDoor
+    PosX: 48
+    PosY: 264
+    Index: 16
+- Region: *o0
+  Items: []
+  Enemies: []
+  Tiles: []
+  BoundryTiles: []
+  Doors:
+  - !EastLockedDoor
+    PosX: 720
+    PosY: 264
+    Index: 15
+Players:
+- !LinkPlayer
+  Inventory:
+    PrimaryItem: 
+    SecondaryItem: 
+    Rupees: 0
+    Bombs: 10
+    Keys: 0
+  PosX: 411
+  PosY: 219
+  Health: 1
+  IsTakingDamage: false
+  Orientation: Right
+  IsBusy: false
+  IsFriendly: true
+  Damage: 1

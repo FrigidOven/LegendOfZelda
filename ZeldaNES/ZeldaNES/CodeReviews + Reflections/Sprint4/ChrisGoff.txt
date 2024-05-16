@@ -1,0 +1,18 @@
+Date: April 9, 2024
+Author: Chris Goff
+Code Reviewed: Inventory.cs
+Author of Code: Angstrom Sarkar
+Time: 15 min
+
+READABILITY
+-Good naming conventions
+-Sporatic comments when necessary
+-Consistent formatting, indentations, spacing, etc.
+-Generally easy to understand
+
+CODE QUALITY
+-Concise, clear if statements
+-Great usage of interfaces to accomplish tasks
+-Some usage of magic numbers :(
+-used += 1 instead of ++
+-is extendable to multiple links incase multiple wants to be added

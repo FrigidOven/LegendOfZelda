@@ -1,0 +1,15 @@
+Written April 21, by Angstrom Sarkar
+Code reviewed: Cheatcode.cs
+Code author: Joey Zhou
+Time: 10 minutes
+
+READABILITY:
+	- Overall understandable.
+	- However, the fact that the implementation of the cheat codes involves multiple classes (one of which is in a different folder) may confuse
+	readers who are unaware of the fact.
+
+QUALITY:
+	- Still not fully sure why the implementation is split between Cheatcode.cs and CheatCommand.cs, though this may be simply because of some
+	programming technique that I am unaware of.
+	- In theory, each cheatcode may be implementable as its own unique class, inhereiting from a superclass, which may make the code more "modular".
+	- Though these changes COULD be made, the code is functional as is, and could still easily be modified.

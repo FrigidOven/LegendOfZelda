@@ -1,0 +1,14 @@
+author: yuyang zhou
+2024/3/8
+sprint3
+Code Reviewed: Hitbox.cs
+Author of Code: PrestonHines
+minute taken to review: 15 minutes
+
+READABILITY
+variable names are clear and easy such as high and with and offset,
+function names easy to understand. There are two hit box and the function is to detect the intersects of two box.
+CODE QUALITY
+this is class is the base for all the function of spring 3 and it achieve the goal. It decte the Intersects of two box 
+
+*/

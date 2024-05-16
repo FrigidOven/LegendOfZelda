@@ -1,0 +1,16 @@
+Date: March 8, 2024
+Author: Chris Goff
+Code Reviewed: StalfoEnemy.cs
+Author of Code: Thomas Flanagan
+Time: 15 min
+
+READABILITY
+-Fields, variables and methods are named clearly
+-Lack of comments, but not a big deal because there are small,
+intuitive blocks of code
+
+CODE QUALITY
+-Usage of a state machine using classes to keep track of state,
+but also uses extra integer variable accomplish this
+-Update method is concise and uses internal methods to maintain readability
+-Multiple constructors offers a failsafe

@@ -1,0 +1,8 @@
+written march 8, by angstrom sarkar
+code reviewed: Hitbox.cs
+
+readability: though i do not know exactly what some of the stuff does, i feel like if i actually took the time to sit down and look over
+everything, i probably could understand it
+
+code quality: seems relatively easy to maintain, as most constants are not magic numbers and most functions are relatively short and simple. this
+also probably helps in terms of readability

@@ -1,0 +1,22 @@
+February 19, 2024
+Written by Chris Goff
+Code Reviewed: BossLeftFacingSprite.cs
+Author of Code: Abril Diaz
+
+READABILITY
+-Local variable names are well defined and intuitive, could be grouped and separated by whitespace to
+make it a little more readable
+-Consistent comments before large chunks of code enable readability
+-Certain elements of the Update() method could be modularized into additional methods to enable readability
+-Usage of the "?" operator is not very readable
+Time taken to complete review: 15 minutes
+
+CODE QUALITY
+-Usage of constant values will maintain usability of the class if the sprite sheet changes
+-Proper implementation of ISprite methods
+-Contructor parameters are different than that of other enemies, could lead to issues
+-Five contructor paramters, could potentially be reduced
+Hypotetical Change that Could Cause Problems: The current implementation takes sprite sheets as a 
+constructor paramter. If there were additional animation frames added for the Boss that, for example, change
+its color, and these sprites were contained in a different sprite sheet, then there would have to be
+moderate refactoring done to accomodate this.

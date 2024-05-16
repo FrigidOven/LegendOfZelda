@@ -1,0 +1,16 @@
+Date: February 19, 2024
+Author: Abril Diaz Valdiviezo
+Code Reviewed: BigJellySprite.cs
+Author of Code: Yuyang Zhou
+Time: 15 min
+
+READABILITY
+-Variable names are good but some are not following capitalization guidalines 
+-Some variables are unused so they should be deleted
+-Sufficient comments 
+-Overall organization makes sense
+
+CODE QUALITY
+-Good use of constant values in constructor and Draw() for maintainability
+-Good implementation of ISprite methods
+Changes: Modify Update() to not use magic numbers so it's easier to maintain.

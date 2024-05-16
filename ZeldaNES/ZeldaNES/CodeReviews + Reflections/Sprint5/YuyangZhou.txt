@@ -1,0 +1,14 @@
+author: yuyang zhou
+2024/4/22
+sprint5
+Code Reviewed: OldManNPC.cs
+Author of Code: ChrisGoff
+minute taken to review: 15 minutes
+
+READABILITY
+variable names are clear such as a directionTimer and weaponTimer,So oldman now can shoot and move in a certain direction. The code is easy to read and understand.
+it seems that the class does not have new method but instead it change the update method which make the oldman can be hurt and start the boss mode. it success.
+CODE QUALITY
+it is maintainable and easy to read. It would be easy to add new features such as new attack patterns or new weapons by calling weapon factory.
+
+*/

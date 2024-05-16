@@ -1,0 +1,15 @@
+Date: March 7, 2024
+Author: Abril Diaz Valdiviezo
+Code Reviewed: RegionEditor.cs
+Author of Code: Preston Hines
+Time: 15 min
+
+READABILITY
+-Variable names are good but some are not following capitalization guidalines 
+-I would add more comments since there is a lot of complex stuff going on in this file
+-Overall organization makes sense
+
+CODE QUALITY
+-Good use of constant values for maintainability
+-There is a lot of complexity, but I assume there isn't a way to make it simpler
+-Good job overall
