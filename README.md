@@ -5,16 +5,20 @@ Recreation of the original Legend Of Zelda video game for the NES
 
 Created over the course of 3.5 months by:
 
-Jamal Hussein,
-Preston Hines,
-Tommy Flanagan,
-Chris Goff,
-Angstrom Sarkar,
-Joey Zhou,
+Jamal Hussein
+
+Preston Hines
+
+Tommy Flanagan
+
+Chris Goff
+
+Angstrom Sarkar
+
+Joey Zhou
+
 Abril Diaz
 
-
-## Commands
 
 # Editor Commands
 
